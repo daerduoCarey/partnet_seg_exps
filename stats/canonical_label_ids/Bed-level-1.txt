@@ -1,0 +1,10 @@
+3 bed/regular_bed/bed_unit subcomponents
+211 bed/bunk_bed/bed_unit subcomponents
+212 bed/bunk_bed/ladder subcomponents
+216 bed/bunk_bed/stairs subcomponents
+221 bed/loft_bed/bed_unit subcomponents
+325 bed/loft_bed/ladder subcomponents
+329 bed/loft_bed/stairs subcomponents
+333 bed/loft_bed/slide subcomponents
+336 bed/loft_bed/furniture subtypes
+340 bed/hammock subcomponents

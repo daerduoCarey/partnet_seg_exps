@@ -1,0 +1,12 @@
+3 microwave/body/frame leaf
+5 microwave/body/body_interior/tray leaf
+6 microwave/body/body_interior/tray_support leaf
+8 microwave/body/door/door_frame leaf
+9 microwave/body/door/glass leaf
+10 microwave/body/door/handle leaf
+11 microwave/body/door/hinge leaf
+13 microwave/body/side_controls/door_button leaf
+14 microwave/body/side_controls/control_button leaf
+15 microwave/body/side_controls/display_panel leaf
+16 microwave/body/side_controls/indicator leaf
+19 microwave/base/foot_base/foot leaf

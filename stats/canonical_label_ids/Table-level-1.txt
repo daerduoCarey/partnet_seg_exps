@@ -1,0 +1,2 @@
+3 table/regular_table/tabletop subcomponents
+18 table/regular_table/table_base subtypes

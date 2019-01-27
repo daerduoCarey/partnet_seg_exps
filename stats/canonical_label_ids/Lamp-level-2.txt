@@ -1,0 +1,3 @@
+502 lamp/ceiling_lamp/chandelier/lamp_base subcomponents
+581 lamp/ceiling_lamp/chandelier/chain leaf
+615 lamp/ceiling_lamp/chandelier/lamp_unit_group/lamp_unit subcomponents

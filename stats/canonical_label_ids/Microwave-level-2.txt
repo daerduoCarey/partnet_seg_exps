@@ -1,0 +1,5 @@
+3 microwave/body/frame leaf
+4 microwave/body/body_interior subcomponents
+7 microwave/body/door subcomponents
+12 microwave/body/side_controls subcomponents
+18 microwave/base/foot_base subcomponents

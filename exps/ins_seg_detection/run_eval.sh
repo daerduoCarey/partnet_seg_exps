@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=0 python3.5 eval.py \
+    --model model \
+    --category Chair \
+    --level_id 3 \
+    --log_dir log_Chair_level_3 \
+    --eval_dir eval \
+    --pred_dir pred \
+    --visu_dir visu \
+    --visu_batch 2 \
+    --num_ins 200 \
+    --num_point 10000 \
+    --batch_size 16
