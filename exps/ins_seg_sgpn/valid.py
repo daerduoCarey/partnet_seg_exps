@@ -46,7 +46,7 @@ LOG_DIR = os.path.join(LOG_DIR, FLAGS.valid_dir)
 check_mkdir(LOG_DIR)
 
 # load meta data files
-stat_in_fn = '../../stats/after_merging2_label_ids/%s-level-%d.txt' % (FLAGS.category, FLAGS.level_id)
+stat_in_fn = '../../stats/after_merging_label_ids/%s-level-%d.txt' % (FLAGS.category, FLAGS.level_id)
 print('Reading from ', stat_in_fn)
 with open(stat_in_fn, 'r') as fin:
     part_name_list = [item.rstrip().split()[1] for item in fin.readlines()]

@@ -19,7 +19,7 @@ parser.add_argument('--num_ins', type=int, default=200, help='num_ins')
 args = parser.parse_args()
 
 # load meta data files
-stat_in_fn = '../../stats/after_merging2_label_ids/%s-level-%d.txt' % (args.category, args.level_id)
+stat_in_fn = '../../stats/after_merging_label_ids/%s-level-%d.txt' % (args.category, args.level_id)
 print('Reading from ', stat_in_fn)
 with open(stat_in_fn, 'r') as fin:
     part_name_list = [item.rstrip().split()[1] for item in fin.readlines()]
