@@ -1,6 +1,6 @@
 # PartNet: A Large-scale Benchmark for Fine-grained and Hierarchical Part-level 3D Object Understanding 
 
-This repository contains code and scripts for PartNet segmentation experiments.
+This repository contains code and scripts for PartNet segmentation experiments in Section 5.
 
 ## About this repository
 
