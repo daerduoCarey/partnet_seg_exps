@@ -25,7 +25,7 @@ def main():
     parser.add_argument('--load_ckpt', '-k', help='Path to a check point file for load', required=True)
     parser.add_argument('--model', '-m', help='Model to use', required=True)
     parser.add_argument('--setting', '-x', help='Setting to use', required=True)
-    parser.add_argument('--batch_size', '-b', help='Batch size during testing', default=4, type=int)
+    parser.add_argument('--batch_size', '-b', help='Batch size during testing', default=8, type=int)
     parser.add_argument('--save_ply', '-s', help='Save results as ply', action='store_true')
     parser.add_argument('--save_dir', '-o', help='The output directory', type=str, default=None)
     parser.add_argument('--save_num_shapes', '-u', help='how many shapes to visualize', default=20, type=int)
