@@ -165,8 +165,6 @@ def main():
                 data_utils.save_ply_property(data_test[i], label_gt[i], setting.num_class, out_fn)
 
     all_seg_probs = np.vstack(all_seg_probs)
-    np.save('out.npy', all_seg_probs)
-
     print('{}-Done!'.format(datetime.now()))
 
     print('Average Accuracy: %f' % (avg_acc / avg_cnt))

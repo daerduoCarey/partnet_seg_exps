@@ -1,4 +1,2 @@
-ins_*
-*.zip
-*.h5
-*.json
+*
+!.gitignore

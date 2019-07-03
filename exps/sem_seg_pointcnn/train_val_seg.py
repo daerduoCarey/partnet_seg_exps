@@ -10,7 +10,6 @@ import os
 import sys
 import math
 import random
-import shutil
 import argparse
 import importlib
 import data_utils
@@ -176,10 +175,6 @@ def main():
     init_op = tf.group(tf.global_variables_initializer(), tf.local_variables_initializer())
 
     saver = tf.train.Saver(max_to_keep=None)
-
-    # backup all code
-    code_folder = os.path.abspath(os.path.dirname(__file__))
-    shutil.copytree(code_folder, os.path.join(root_folder, os.path.basename(code_folder)))
 
     folder_ckpt = os.path.join(root_folder, 'ckpts')
     if not os.path.exists(folder_ckpt):

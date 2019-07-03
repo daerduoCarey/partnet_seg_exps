@@ -1,4 +1,7 @@
+*.pyc
 cuda
 data
 models
 venv
+exps_results
+__pycache__
