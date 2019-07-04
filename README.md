@@ -43,6 +43,16 @@ This repository contains code and scripts for PartNet segmentation experiments i
 
 Please check [the dataset repo](https://github.com/daerduocarey/partnet_dataset) for downloading the dataset and helper scripts for data usage.
 
+## Cite
+
+    @InProceedings{Mo_2019_CVPR,
+        author = {Mo, Kaichun and Zhu, Shilin and Chang, Angel X. and Yi, Li and Tripathi, Subarna and Guibas, Leonidas J. and Su, Hao},
+        title = {{PartNet}: A Large-Scale Benchmark for Fine-Grained and Hierarchical Part-Level {3D} Object Understanding},
+        booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+        month = {June},
+        year = {2019}
+    }
+
 
 ## Questions
 
