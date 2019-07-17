@@ -190,7 +190,7 @@ def get_l21_norm(mask_pred, other_mask_pred, end_points):
     """
     num_point = other_mask_pred.get_shape()[1].value
 
-    full_mask = tf.concat([mask_pred, tf.expand_dims(other_mask_pred, axis=1)], axis=1)
+    full_mask = tf.concat([mask_pred, tf.expand_dims(other_mask_pred, axis=1)], axis=1) + 1e-6
     per_shape_l21_norm = tf.norm(tf.norm(full_mask, ord=2, axis=-1), ord=1, axis=-1) / num_point
     end_points['per_shape_l21_norm'] = per_shape_l21_norm
 
