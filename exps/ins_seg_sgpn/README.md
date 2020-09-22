@@ -1,6 +1,8 @@
 ### The code is modified by Kaichun Mo to operate on PartNet Dataset
 MIT License
 
+Below is the README for the original paper!
+
 ### SGPN:Similarity Group Proposal Network for 3D Point Cloud Instance Segmentation [<a href="https://arxiv.org/pdf/1711.08588.pdf">Arxiv</a>]
 
 ### Dependencies
